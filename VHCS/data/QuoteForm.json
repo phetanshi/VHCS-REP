@@ -1,0 +1,22 @@
+[
+  {
+    "field": "text",
+    "name": "First Name",
+    "regex": ""
+  },
+  {
+    "field": "text",
+    "name": "Last Name",
+    "regex": ""
+  },
+  {
+    "field": "text",
+    "name": "Email",
+    "regex": ""
+  },
+  {
+    "field": "text",
+    "name": "Mobile",
+    "regex": ""
+  }
+]

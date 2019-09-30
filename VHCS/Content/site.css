@@ -1,0 +1,78 @@
+﻿body, html {
+    font-family: 'Roboto', sans-serif; /*'Marck Script',serif;*/ /*'Roboto', sans-serif;*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #48487f !important;
+}
+
+.bg-light {
+    background-color: #FFF !important;
+    box-shadow: 0 0 5px grey !important;
+    -webkit-box-shadow: 0 0 5px grey !important;
+    -moz-box-shadow: 0 0 5px grey !important;
+}
+
+.navbar-brand {
+    color: #48487f !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #48487f !important;
+}
+
+
+.intro {
+    width: 100%;
+    margin: auto;
+    background: url('../img/food-3.jpg') no-repeat 50% 50%;
+    display: table;
+    background-size: cover;
+    background-color: lightcyan;
+}
+
+    .intro .inner{
+        display:table-cell;
+        vertical-align:middle;
+        width:100%;
+        max-width:none;
+    }
+
+.content{
+    margin:0 auto;
+    text-align:center;
+}
+
+    .content h1 {
+        font-size: 56px;
+        font-weight:bold;
+    }
+    .content h1, .content p {
+        color: #FFF;
+    }
+
+    .content .btn-outline-primary {
+        color: #FFF !important;
+        border-color: #FFF;
+        outline: none;
+        box-shadow: none;
+    }
+
+        .content .btn-outline-primary:hover {
+            border-color: #007bff;
+        }
+
+        body > p {
+            text-align: justify;
+        }
+
+/*Photo Galary*/
+.photo-galary{
+    display:flex;
+    justify-content:center;
+}
+
+a, input[type="text"], input[type="email"], textarea {
+    box-shadow: none !important;
+}
